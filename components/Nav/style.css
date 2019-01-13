@@ -1,0 +1,39 @@
+.nav {
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+}
+
+.nav-item {
+    padding: 10px 10px 0;
+    font-family: var(--main-font-family);
+    color: var(--text-color);
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -10px;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    background-color: var(--highlight-color);
+    transition: 300ms all ease-out;
+    z-index: -1;
+}
+
+.nav-item.active::before {
+    width: 8px;
+    height: 8px;
+}
+
+.nav-item:hover::before {
+    width: 100px;
+    height: 100px;
+}

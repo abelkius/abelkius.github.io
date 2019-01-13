@@ -1,0 +1,9 @@
+.layout {
+    background-color: var(--background-color);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}

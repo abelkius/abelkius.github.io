@@ -1,0 +1,33 @@
+html, 
+body, 
+div, 
+span, 
+ol, 
+ul, 
+li,
+label, 
+nav, 
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+:root {
+    --background-color: #f7f7f7;
+    --main-color: #3c4f8a;
+    --text-color: #2c2c49;
+    --highlight-color: #FFB0A5;
+    --title-font-family: 'Abril Fatface', cursive;
+    --title-2-font-family: 'Monoton', cursive;
+    --text-font-family: 'Source Sans Pro', sans-serif;
+    --main-font-family: 'Staatliches', cursive;
+    --ball-size: 70px;
+
+    --text-animation-delay: 1s;
+	--text-animation-duration: 800ms;
+	--text-animation-iterations: 1;
+}
